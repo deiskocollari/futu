@@ -78,6 +78,7 @@ body {
 
 input:focus::placeholder {
     color: transparent;
+}
 
 .submit1, .submit2 {
     font-family: 'Nunito';
@@ -101,7 +102,7 @@ input:focus::placeholder {
 color: white;
 }
 
-.submit1:active, .submit2:hover {
+.submit1:hover, .submit2:hover {
     border: none;
 }
 
