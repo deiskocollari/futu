@@ -30,7 +30,7 @@ body {
     margin-bottom: 0px;
 }
 
-.text {
+.text, .datetime-local {
     font-family: 'Nunito';
     font-size: 25px;
     font-weight: bold;
@@ -80,12 +80,25 @@ input:focus::placeholder {
     color: transparent;
 }
 
-.submit1, .submit2 {
+.submit1 {
     font-family: 'Nunito';
     color: white;
     padding: 15px 0px;
     display: inline-block;
-    font-size: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 30px;
+    outline: none;
+    width: 220px;
+    background-color: #F8C8DC;
+}
+
+.submit2 {
+    font-family: 'Nunito';
+    padding: 15px 0px;
+    display: inline-block;
+    font-size: 20px;
     border: none;
     border-radius: 40px;
     margin-top: 30px;
@@ -97,6 +110,7 @@ input:focus::placeholder {
 .submit1 {
     margin-right: 2px;
 }
+
 
 .submit1::placeholder, .submit2::placeholder {
 color: white;
