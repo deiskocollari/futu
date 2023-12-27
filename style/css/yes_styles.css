@@ -113,11 +113,11 @@ body {
 }
 
 
-.submit1::placeholder, .submit2::placeholder {
+.submit1::placeholder {
 color: white;
 }
 
-.submit1:hover, .submit2:hover {
+.submit1:hover {
     border: none;
 }
 
