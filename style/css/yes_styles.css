@@ -76,7 +76,7 @@ body {
     margin-left: 90px;
 }
 
-input:focus::placeholder {
+.submit1:focus::placeholder {
     color: transparent;
 }
 
@@ -96,7 +96,7 @@ input:focus::placeholder {
 
 .submit2 {
     font-family: 'Nunito';
-    color: red;
+    color: white;
     padding: 15px 0px;
     display: inline-block;
     font-size: 20px;
