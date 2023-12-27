@@ -96,6 +96,7 @@ input:focus::placeholder {
 
 .submit2 {
     font-family: 'Nunito';
+    color: red;
     padding: 15px 0px;
     display: inline-block;
     font-size: 20px;
